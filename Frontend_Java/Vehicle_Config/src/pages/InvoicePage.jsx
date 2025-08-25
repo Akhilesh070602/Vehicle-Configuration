@@ -131,17 +131,18 @@ function InvoicePage() {
 const pageStyle = {
   padding: "2rem",
   fontFamily: "Arial, sans-serif",
-  backgroundColor: "#f4f4f4",
+  backgroundColor: "#e9ecef", // softer gray so invoice card pops
   minHeight: "100vh",
 };
 
 const invoiceStyle = {
-  backgroundColor: "#fff",
-  padding: "1rem",
-  borderRadius: "8px",
-  boxShadow: "0 0 10px rgba(0,0,0,0.1)",
+  backgroundColor: "#ffffff", // pure white for contrast
+  padding: "1.5rem",
+  borderRadius: "12px",
+  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)", // stronger shadow
+  border: "1px solid #000000ff", // light border
+  color: "#212529", // dark text for readability
 };
-
 const buttonContainer = {
   marginTop: "1rem",
   display: "flex",
